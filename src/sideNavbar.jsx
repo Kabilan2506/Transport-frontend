@@ -109,13 +109,13 @@ function SideNavbar() {
           width={400}
           className="!py-40"
         >
-          <p className="text-white font-bold">
+          <p className="text-blue font-bold">
             Are You sure Want to Logout ?
           </p>
           <div className="flex gap-2 items-end justify-end  pt-2">
             <button
               onClick={handleLogout}
-              className=" flex items-center border-2 border-slate-600 shadow-md justify-center px-2 text-white lg:w-[4vw] lg:px-0 lg:h-[4vh] rounded-md "
+              className=" flex items-center border-2 border-slate-600 shadow-md justify-center px-2 text-blue lg:w-[4vw] lg:px-0 lg:h-[4vh] rounded-md "
             >
               Yes
             </button>
